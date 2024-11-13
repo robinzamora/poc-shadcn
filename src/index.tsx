@@ -11,5 +11,5 @@ const root = createRoot(element!);
 root.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>
+  </BrowserRouter>,
 );

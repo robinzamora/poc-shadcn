@@ -19,5 +19,6 @@ html {
 
 body {
   font-family: 'Poppins', 'sans-serif';
-  color: black;
+  color: white;
+  background-color: black;
 }
