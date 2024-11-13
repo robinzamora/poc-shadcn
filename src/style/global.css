@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* La font-size de html sert de base pour le calcul des rem */
+/* -------------------------------------------------------- */
+html {
+  /* Cette valeur correspond à la division de 16px (taille de la font-size de base) par la height de l'écran utilisé
+       pour les maquettes (1080px) multiplié par 100 pour obtenir une valeur en % => 16/1080 = 0.01481 * 100 = 1.481 */
+  font-size: 1.481481481vh;
+}
+
+@media screen and (max-aspect-ratio: 16/9) and (min-width: 1024px) {
+  html {
+    /* Cette valeur correspond à la division de 16px (taille de la font-size de base) par la width de l'écran utilisé
+       pour les maquettes (1920px) multiplié par 100 pour obtenir une valeur en % => 16/1920 = 0.00833 * 100 = 0.833 */
+    font-size: 0.8333333333333vw;
+  }
+}
+/* ------------------------------------------------------- */
+
+body {
+  font-family: 'Poppins', 'sans-serif';
+  color: black;
+}
